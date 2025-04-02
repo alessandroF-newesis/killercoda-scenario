@@ -2,17 +2,7 @@
 
 kubectl apply -f - <<EOF
 apiVersion: v1
-kind: Pod
+kind: Namespace
 metadata:
-  name: static-web
-  labels:
-    role: myrole
-spec:
-  containers:
-    - name: web
-      image: nginx
-      ports:
-        - name: web
-          containerPort: 80
-          protocol: TCP
+  name: testdemo
 EOF

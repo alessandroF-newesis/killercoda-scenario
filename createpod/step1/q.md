@@ -1,15 +1,15 @@
 
 > <strong>Link utile</strong>: [Pod](https://kubernetes.io/docs/concepts/workloads/pods/)
 
-Prima di cominciare dai questo comando:
+Prima di cominciare spostati nel namespace testdemo:
 
-`kubectl get node`{{exec}}
+`kubectl config set-context --current --namespace=testdemo`{{exec}}
 <br>
-
+<br>
 Challenge:
 * Crea un pod chiamato `ubuntu-pod`. 
 * Il pod deve rimanere in running.
-* deve usare come immagine `ubuntu`.
+* Deve usare come immagine `ubuntu`.
 
 <br>
 
@@ -17,7 +17,7 @@ Challenge:
   <summary>Tips 1</summary>
 
   Puoi usare questo template ma non ti basterà.
-  Usa `kubectl get pod` per verificare se il tuo pod e in running
+
 
 ```
 apiVersion: v1
@@ -31,6 +31,8 @@ spec:
     - name: ubuntu
       image: ubuntu
 ```
+
+Usa `kubectl get pod`{{exec}} per verificare se il tuo pod e in running
 </details>
 
 <details>
