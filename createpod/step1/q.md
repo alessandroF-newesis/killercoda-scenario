@@ -2,33 +2,40 @@
 > <strong>Link utile</strong>: [Pod](https://kubernetes.io/docs/concepts/workloads/pods/)
 
 Prima di cominciare dai questo comando:
+
 `kubectl get node`{{exec}}
 <br>
 
 Challenge:
-* Crea un pod chiamato `ubuntu`. Il pod deve rimanere in running, deve usare come immagine `ubuntu` 
+* Crea un pod chiamato `ubuntu-pod`. 
+* Il pod deve rimanere in running.
+* deve usare come immagine `ubuntu`.
+
+<br>
 
 <details>
   <summary>Tips 1</summary>
-  Puoi usare il comando `kubectl get pods` per vedere lo stato dei tuoi pod.
+
+  Puoi usare questo template ma non ti basterà.
+  Usa `kubectl get pod` per verificare se il tuo pod e in running
 
 ```
 apiVersion: v1
 kind: Pod
 metadata:
-  name: static-web
+  name: ubuntu-pod
   labels:
-    role: myrole
+    role: ubuntu
 spec:
   containers:
-    - name: web
-      image: nginx
+    - name: ubuntu
+      image: ubuntu
 ```
 </details>
 
 <details>
   <summary>Tips 2</summary>
-  Ma come.. non ti è bastato?
+  Non è in Running vero? perche gli manca qualcosa che lo tenga attivo aggiungi questo...
   
 ```
       command: ["/bin/sh"]
