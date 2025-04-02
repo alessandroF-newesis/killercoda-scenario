@@ -15,7 +15,7 @@ Part I:
 
   Puoi usare il comando `kubectl get pods` per vedere lo stato dei tuoi pod.
 
-  '''
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -26,18 +26,17 @@ spec:
   containers:
     - name: web
       image: nginx
-    '''
-
+```
 </details>
 
 <details>
   <summary>Tips 2</summary>
 
-  non ti e bastato!!
-  devi aggiungere un command altrimenti il pod non ha niente da eseguire ed esce..
-    '''
+  Ma come.. non ti è bastato?
+  
+```
       command: ["/bin/sh"]
       args: ["-c", "sleep infinity"]
-    '''
+```
 </details>
 
