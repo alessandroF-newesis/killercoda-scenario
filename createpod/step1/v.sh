@@ -1,6 +1,6 @@
 #!/bin/bash
 
-podname="ubuntu"
+podname="ubuntu-pod"
 
 # Check if pod exists
 if kubectl get pod "$podname" &> /dev/null; then

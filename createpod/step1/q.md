@@ -37,7 +37,13 @@ Usa `kubectl get pod`{{exec}} per verificare se il tuo pod e in running
 
 <details>
   <summary>Tips 2</summary>
-  Non è in Running vero? perche gli manca qualcosa che lo tenga attivo aggiungi questo...
+
+  Non è in Running vero? 
+  
+  gli manca qualcosa che lo tenga attivo 
+  
+  distruggilo e ricrealo aggiungendo questo...
+  
   
 ```
       command: ["/bin/sh"]
