@@ -3,7 +3,7 @@
   "description": "Learn the first steps with Vim",
   "details": {
     "intro": {
-      "text": "intro.md",
+      "text": "init.md",
       "background": "background.sh"
     }
   },
