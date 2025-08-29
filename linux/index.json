@@ -3,8 +3,8 @@
   "description": "Learn the first steps with Vim",
   "details": {
     "intro": {
-      "text": "init.md",
-      "background": "background.sh"
+      "text": "init/init.md",
+      "background": "init/background.sh"
     }
   },
   "backend": {
