@@ -1,6 +1,6 @@
 {
-  "title": "First Steps",
-  "description": "Learn the first steps with Vim",
+  "title": "Linux",
+  "description": "Linux playground by Alessandro fileccia",
   "details": {
     "intro": {
       "text": "init/init.md",
