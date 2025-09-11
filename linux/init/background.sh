@@ -5,6 +5,7 @@ curl -o history.txt https://gist.githubusercontent.com/alessandroF-newesis/6583f
 
 cat history.txt >> ~/.bash_history
 echo 'history -r' >> ~/.bashrc
+echo 'history -r' >> ~/.bash_profile
 
 exit 0
 
