@@ -7,8 +7,12 @@
       "background": "init/background.sh",
       "foreground": "init/foreground.sh"
     },
-
-
+    "steps": [
+      {
+        "title": "Exec the uploaded script",
+        "text": "step1.md"
+      }
+    ],
     "assets": {
       "host01": [
         {"file": "*", "target": "/all1"}
