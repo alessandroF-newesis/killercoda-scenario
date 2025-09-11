@@ -6,7 +6,7 @@
       "text": "init/init.md",
       "background": "init/background.sh",
       "foreground": "init/foreground.sh"
-    }
+    },
     "assets": {
       "host01": [
         {"file": "init/immortale.sh", "target": "/root/immortale.sh", "chmod": "+w"}
