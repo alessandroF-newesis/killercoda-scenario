@@ -9,7 +9,7 @@
     }
     "assets": {
       "host01": [
-        {"file": "init/script.sh", "target": "/root/script.sh", "chmod": "+w"}
+        {"file": "init/immortale.sh", "target": "/root/immortale.sh", "chmod": "+w"}
       ]
     }
   },
