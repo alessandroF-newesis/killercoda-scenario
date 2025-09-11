@@ -4,6 +4,7 @@ curl -o ricetta.txt https://gist.githubusercontent.com/alessandroF-newesis/99132
 curl -o history.txt https://gist.githubusercontent.com/alessandroF-newesis/6583fa3a279a4a569f0e83892cbe92c2/raw/d2fa62cfbc6425756ee5c4ccc81c125339e55b01/gistfile1.txt
 
 cat history.txt >> ~/.bash_history
+sleep 5
 history -r
 
 exit 0
