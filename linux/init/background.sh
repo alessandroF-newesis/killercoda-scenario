@@ -1,16 +1,12 @@
 #!/bin/bash
 dd if=/dev/zero of=/var/Bigfile1G bs=1M count=1024
-curl -o ricetta.txt https://gist.githubusercontent.com/alessandroF-newesis/991324fe6c01dc77a847b17afdc02c2c/raw/20d81220fae59487634faf859500f19e4fea6543/gistfile1.txt
 
-curl -o http.log https://gist.githubusercontent.com/alessandroF-newesis/47463db76935f1a3d2529829d8ab7232/raw/0eb9e0f553bb4dae2d508ddf952b2c6455f14be6/gistfile1.txt
+git clone https://github.com/alessandroF-newesis/killercoda-scenario.git /tmp/repo && \
+mv /tmp/repo/linux/assets / && \
+rm -rf /tmp/repo
 
-curl -o history.txt https://gist.githubusercontent.com/alessandroF-newesis/6583fa3a279a4a569f0e83892cbe92c2/raw/d2fa62cfbc6425756ee5c4ccc81c125339e55b01/gistfile1.txt
-cat history.txt >> ~/.bash_history
+cat /assets/history.txt >> ~/.bash_history
 
-curl -o immortale.sh https://gist.githubusercontent.com/alessandroF-newesis/1fb0c19268f8f263b871e30c6b58d83b/raw/bbf614edba2d712f25704cdfc2b908d8e6e74ac1/gistfile1.txt
-chmod +x immortale.sh
-
-
+chmod +x /assets/immortale.sh
 
 echo done > /tmp/background0
-
