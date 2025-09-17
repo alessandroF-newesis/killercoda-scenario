@@ -30,6 +30,10 @@ ls
 ls
 aws
 cd ..
+echo -e '#!/bin/sh\necho Hello v1' > hello-v1 
+echo -e '#!/bin/sh\necho Hello v2' > hello-v2
+chmod +x hello-v1 hello-v2
+echo -e '#!/bin/sh\necho Hello v3' > hello-v3 && chmod +x hello-v3
 ls
 cat .aws/config
 cat .aws/credentials
