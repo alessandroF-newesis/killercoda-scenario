@@ -8,7 +8,7 @@ fallocate -l 2G /home/andrea/Tempfile.old.old.old.old.old
 fallocate -l 2G /home/andrea/Tempfile.old.old.old.old.old.old
 fallocate -l 2G /home/andrea/Tempfile.old.old.old.old.old.old.old
 
-apt-get install stress -y
+apt-get install stress pv -y
 stress --vm 1 --vm-bytes 400M --vm-hang 8000000 &
 
 git clone --depth 1 https://github.com/alessandroF-newesis/killercoda-scenario.git /tmp/repo && \
