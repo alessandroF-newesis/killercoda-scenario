@@ -11,6 +11,10 @@ fallocate -l 2G /home/andrea/Tempfile.old.old.old.old.old.old.old
 apt-get install stress -y
 stress --vm 1 --vm-bytes 400M --vm-hang 8000000 &
 
+ip addr add 100.100.100.100/32 dev lo
+exec -a trallallero nc -l 666 &
+while true; do   echo "Hacking in corso............   download dati delle carte di credito %%%%%";   sleep 3; done | nc 127.0.0.1 666 &
+
 git clone --depth 1 https://github.com/alessandroF-newesis/killercoda-scenario.git /tmp/repo && \
 mv /tmp/repo/linux/assets / && \
 rm -rf /tmp/repo
