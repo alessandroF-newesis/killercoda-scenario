@@ -8,8 +8,19 @@ mkdir /home/andrea
 #fallocate -l 2G /home/andrea/Tempfile.old.old.old.old.old.old
 #fallocate -l 2G /home/andrea/Tempfile.old.old.old.old.old.old.old
 
-apt-get install stress -y
+#apt-get install stress -y
 #stress --vm 1 --vm-bytes 400M --vm-hang 8000000 &
+
+mkdir /assets/rubrica
+for l in {a..z}; do 
+  for n in $(seq -w 0 100); do 
+    echo "...in progress" > "/assets/rubrica/${l}${n}"
+  done
+done
+echo "finito" >> /assets/rubrica/a010
+echo "finito" >> /assets/rubrica/l020
+echo "finito" >> /assets/rubrica/e030
+
 
 ip addr add 100.100.100.100/32 dev lo
 exec -a trallallero nc -l 666 &
