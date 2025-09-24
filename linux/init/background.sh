@@ -11,15 +11,7 @@ mkdir /home/andrea
 #apt-get install stress -y
 #stress --vm 1 --vm-bytes 400M --vm-hang 8000000 &
 
-mkdir /assets/rubrica
-for l in {a..z}; do 
-  for n in $(seq -w 0 100); do 
-    echo "...in progress" > "/assets/rubrica/${l}${n}"
-  done
-done
-echo "finito" >> /assets/rubrica/a010
-echo "finito" >> /assets/rubrica/l020
-echo "finito" >> /assets/rubrica/e030
+
 
 
 ip addr add 100.100.100.100/32 dev lo
@@ -33,5 +25,17 @@ rm -rf /tmp/repo
 cat /assets/history.txt >> ~/.bash_history
 
 chmod +x /assets/immortale.sh
+
+mkdir /assets/rubrica
+for l in {a..z}; do 
+  for n in $(seq -w 0 100); do 
+    echo "...in progress" > "/assets/rubrica/${l}${n}"
+  done
+done
+echo "finito" >> /assets/rubrica/a010
+echo "finito" >> /assets/rubrica/l020
+echo "finito" >> /assets/rubrica/e030
+
+
 
 echo done > /tmp/background0
