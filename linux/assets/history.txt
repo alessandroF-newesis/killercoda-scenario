@@ -1,0 +1,152 @@
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"\nsudo installer -pkg AWSCLIV2.pkg -target /
+aws cli
+pwd
+ls
+rm AWSCLIV2.pkg
+ls -latrh
+locate awscli
+find / |grep aws
+echo $SHELL
+which aws
+pwd
+ls
+ls -latrh
+pwd
+cd Desktop
+cat restoretable.txt
+cat restoretable.txt |sort -n
+cat restoretable.txt |sort -n > sorteda.txt
+ls
+diff present sorteda.txt
+diff -23 <(sort present) <(sort sorteda.txt)
+comm -23 <(sort present) <(sort sorteda.txt)
+comm -13 <(sort present) <(sort sorteda.txt)
+comm -23 <(sort present) <(sort sorteda.txt)
+comm -13 <(sort present) <(sort sorteda.txt)
+pwd
+cd ..
+cd Downloads
+ls
+ls
+aws
+cd ..
+echo -e '#!/bin/sh\necho Hello v1' > hello-v1 
+echo -e '#!/bin/sh\necho Hello v2' > hello-v2
+chmod +x hello-v1 hello-v2
+echo -e '#!/bin/sh\necho Hello v3' > hello-v3 && chmod +x hello-v3
+ls
+cat .aws/config
+cat .aws/credentials
+exit
+kubectl config get-contexts
+ping www.google.it
+cd Downloads
+ls
+git clone https://github.com/Newesissrl/newesis-sample-frontend.git
+ls
+pwd
+git remote add origin https://github.com/mzinga-io/mzinga-applications.git
+pwd
+cd ../GIT2
+cd mzing
+cd mzinga
+ls
+mkdir github
+cd github
+git clone https://github.com/mzinga-io/mzinga-applications.git
+pwd
+git clone https://github.com/mzinga-io/mzinga-apps.git
+git clone https://github.com/mzinga-io/mzinga-sample-frontend.git
+cd GIT2/
+pwd
+cd mzinga/github
+ls
+git clone https://github.com/mzinga-io/1a-TEMPLATE.git
+cd 1a-TEMPLATE
+
+
+history |grep aws
+cat .aws/credentials
+cd temp
+mkdir temp
+vi temp
+cd temp
+az logout
+az loggin
+az login
+kubectl get pod -A
+get pods -A
+k get pods -A
+echo VGh4RmhPVWp4bVZ2 |base64 -d
+ping www.google.it
+ifconfig
+ifconfig |grep 192.
+nmap -p 3389 192.168.1.0/24 --open
+history |grep for
+pwd
+cd /
+ls
+ping 192.168.1.102
+ping 192.168.1.103
+ping 192.168.1.104
+netcat
+arp -a
+nmap
+nmap -sn 192.168.1.0/24
+nmap 192.168.1.0/24
+sudo nmap -sn -PR 192.168.1.0/24
+nmap -sn -PR 192.168.1.0/24
+sudo nmap -sn 192.168.1.0/24
+nmap -p 3389 --open --unprivileged 192.168.1.0/24
+nmap 192.168.1.0/24
+ifconfig
+telnet 192.168.1.110 3389
+nc
+nc 192.168.1.0/24
+for i in {1..254}; do \n nc -z -G 1 192.168.1.$i 3389 2>/dev/null && echo "RDP aperto su 192.168.1.$i"; \ndone
+nc -z -G 1 192.168.1.100 3389
+for i in {1..254}; do \n IP="192.168.1.$i"\n if nc -z -G 1 $IP 3389 2>/dev/null; then\n echo "$IP → RDP aperto"\n else\n echo "$IP → RDP chiuso"\n fi\ndone
+for i in {102..254}; do \n IP="192.168.1.$i"\n if nc -z -G 1 $IP 3389 2>/dev/null; then\n echo "$IP → RDP aperto"\n else\n echo "$IP → RDP chiuso"\n fi\ndone
+ls -l
+ls -d
+ls -dl
+ls --help
+cd ..
+ls
+ls alessandro
+ls -l alessandro
+cd
+ls -l
+cd ..
+ls -l
+cd .
+cd ..
+ssh adminuser@145.239.193.155
+cd
+ls
+cat config
+cd tmp
+ls
+cd temp
+vi dockerfile
+docker build --platform linux/amd64 -t github-runner .
+ls
+cat dockerfile
+telnet 8.209.68.200 6443
+gcloud login
+gcloud auth login
+gcloud auth application-default login
+gcloud project list
+gcloud projects list
+cd github-runner
+helm template pippo .
+git reset --hard HEAD~1
+cd GIT
+pwd
+ls
+telnet authsmtp.securemail.pro 465
+telnet authsmtp.securemail.pro 587
+openssl s_client -connect authsmtp.securemail.pro:465
+for i in {100..140}; do\n IP="192.168.1.$i"\n if nc -z -G 1 $IP 3389 2>/dev/null; then\n echo "$IP → RDP aperto"\n else\n echo "$IP → RDP chiuso"\n fi\ndone\n
+nslookup
+history

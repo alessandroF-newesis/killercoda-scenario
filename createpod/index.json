@@ -1,0 +1,23 @@
+{
+    "title": "Corso Base",
+    "description": "Pod Creation",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "background": "background.sh"
+      },
+      "steps": [
+        {
+          "title": "Introduzione a kubernetes",
+          "text": "step1/q.md",
+          "verify": "step1/v.sh"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+}

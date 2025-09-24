@@ -1,0 +1,14 @@
+{
+  "title": "Linux",
+  "description": "Linux playground by Alessandro fileccia",
+  "details": {
+    "intro": {
+      "text": "init/init.md",
+      "background": "init/background.sh",
+      "foreground": "init/foreground.sh"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
