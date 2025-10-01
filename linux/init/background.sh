@@ -24,6 +24,10 @@ rm -rf /tmp/repo
 
 cat /assets/history.txt >> ~/.bash_history
 
+cat /assets/alias >> ~/.bashrc
+
+
+
 chmod +x /assets/immortale.sh
 chmod +x /assets/saluti.sh
 chmod +x /assets/fun.sh
