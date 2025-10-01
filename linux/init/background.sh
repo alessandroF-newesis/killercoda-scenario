@@ -26,6 +26,7 @@ cat /assets/history.txt >> ~/.bash_history
 
 chmod +x /assets/immortale.sh
 chmod +x /assets/saluti.sh
+chmod +x /assets/fun.sh
 
 mkdir /assets/rubrica
 for l in {a..z}; do 
