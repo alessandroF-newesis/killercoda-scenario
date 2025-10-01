@@ -1,0 +1,14 @@
+alias h='history | grep'
+alias df='df -h' 
+alias du='du -sh .'
+alias myip='curl ifconfig.me -w "\n"'
+alias ports='netstat -naop |grep LIST'
+alias topcpu='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head'
+alias topmem='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head'
+alias apti='sudo apt install'
+alias miohelp='echo "
+ - myip     -> mostra il tuo indirizzo IP pubblico
+ - apti     -> pacchetto da installare
+ - topcpu   -> statistiche clu
+ - ports    -> mostra le porte aperte
+"'
