@@ -31,6 +31,7 @@ cat /assets/alias >> ~/.bashrc
 chmod +x /assets/immortale.sh
 chmod +x /assets/saluti.sh
 chmod +x /assets/fun.sh
+chmod +x /assets/certexpire.sh
 
 mkdir /assets/rubrica
 for l in {a..z}; do 
