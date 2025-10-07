@@ -32,9 +32,9 @@ chmod +x /assets/immortale.sh
 chmod +x /assets/saluti.sh
 chmod +x /assets/fun.sh
 chmod +x /assets/certexpire.sh
-chmod +x /assets/logger.sh
-mv /assets/logger.sh /bin/logger.sh
 
+mv /assets/logger.sh /bin/logger.sh
+chmod +x /bin/logger.sh
 mkdir /assets/rubrica
 for l in {a..z}; do 
   for n in $(seq -w 0 100); do 
